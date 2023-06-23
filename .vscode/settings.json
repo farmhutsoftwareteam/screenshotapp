@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/006fe25a-f4b5-4fba-995b-bfbbd32d9f78/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/munyascreenshotapp",
+    "appService.deploySubpath": "."
+}
