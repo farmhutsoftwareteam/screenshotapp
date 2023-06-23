@@ -4,6 +4,9 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 
+app.get('/', (req, res) => {
+  res.send('Server is running');
+});
 app.get('/pdf', async (req, res) => {
   const url = req.query.url;
   try {
